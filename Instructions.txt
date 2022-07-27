@@ -1,0 +1,19 @@
+This code is written by Omar Hassan if you have any questions please
+contact me on: omar1537@gmail.com
+
+prerequisits:
+1. Installed docker on your machine
+
+instructions:
+1. open folder in command line
+2. run the following command: docker compose up -d
+3. on your browser go to: http://localhost:6060/
+4. choose the following configurations and login to access the database:
+    System: PostgresSQL
+    Server: tmdb
+    Username: docker
+    Password: docker
+    Database: exampledb
+5.on  finish run command: docker compose down
+
+ps: the instructions are wrote for macOS but should work on other OSs as well.
